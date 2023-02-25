@@ -1,0 +1,11 @@
+programação orientada a objetos
+
+objeto: entidade que possui estado, comportamento e identidade
+    estado: valores, dados (conjunto de informações que fazem algum sentido)
+    comportamento: ações, funções
+    identidade: id, identificador
+
+classe: modelo para criação de objetos, propriedades comum
+os principais elementos que compõe uma classe são atributos e métodos
+    atributos representam as características da classe
+    métodos representam as funções, ações
