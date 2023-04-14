@@ -10,20 +10,6 @@ package fatec.avaliacao1b;
  */
 public class ConversaoDeDados {
 
-    public static void main(String[] args) {
-        
-        Double quilometro = 2.8;
-        Double litro = 4.5;
-        Double metroCubico = 2.5;
-        Double barril = 3.0; 
-        
-        quilometroParaMetro(quilometro);
-        litroParaDecilitro(litro);
-        metroCubicoParaPeCubico(metroCubico);
-        barrilParaDecalitro(barril);
-        barrilParaLitro(barril); 
-    }
-    
     public static void quilometroParaMetro(Double num) {
         System.out.printf("%.2f quilometros correspondem a %.2f metros.%n", 
                 num, num * 1000);
