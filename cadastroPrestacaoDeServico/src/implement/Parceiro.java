@@ -1,6 +1,6 @@
 package implement;
 
-public class Parceiro {
+public class Parceiro extends Juridica {
     private String tipoPessoa;
     private Double desempenho;
 
