@@ -1,5 +1,6 @@
 package implement;
 
+import java.util.Calendar;
 import java.util.Date;
 
 public abstract class Fisica extends Pessoa {
@@ -36,7 +37,11 @@ public abstract class Fisica extends Pessoa {
         return nasc;
     }
 
-    public void setNasc(Date nasc) {
-        this.nasc = nasc;
+    public void setNasc(int ano, int mes, int dia) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.YEAR, ano);
+        calendar.set(Calendar.MONTH, mes - 1);
+        calendar.set(Calendar.DAY_OF_MONTH, dia);
+        this.nasc = calendar.getTime();
     }    
 }
